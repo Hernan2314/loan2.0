@@ -7,7 +7,7 @@ import pandas as pd
 import io  # For in-memory CSV download
 
 # Load the trained model
-classifier = joblib.load('classifier.pkl')
+classifier = joblib.load('class.pkl')s
 
 @st.cache()
 def prediction(Gender, Married, ApplicantIncome, LoanAmount, Credit_History):   
